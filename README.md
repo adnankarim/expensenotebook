@@ -32,31 +32,27 @@ Working Details:
           On Submission Your Added Data will be Displayed Below
           
    
-    ->Displayed Data:
+      ->Displayed Data:
           >Whenever you would hover over any row of added data. You can remove the row from the data simply by clicking the red Cross button.
     
  
  
  
-      ->Navigation:
+          ->Navigation:
            >There Is a navigation sign above With a Plus Symbol.
-                 OnClick->   You can have a sliding menus 
-                                 >One with (100 Money symbol) (which is default) 
-                                
-                                
-                                It displays data adding/display portion.
+                    OnClick->   You can have a sliding menus 
+                                 >One with (100 Money symbol) (which is default)  
+                                      It displays data adding/display portion.
                                  >Other with PieChart 
-                                        
-                                        
-                                        It displays Pie Chart portion which displays added data by selecting the any day/ date from the                                        Input.
+                                      It displays Pie Chart portion which displays added data by selecting the any day/ date from the Input.
             
             
             
-            
+         
                                      PieChart Note:
-                                            If there is any data regarding that date you can have a PieChart displayed 
+                                         If there is any data regarding that date you can have a PieChart displayed 
                                              else
-                                             It Would Display "No Data Found". 
+                                         It Would Display "No Data Found". 
 
 
 
