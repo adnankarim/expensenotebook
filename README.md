@@ -62,8 +62,12 @@ About Application:
    >It can stores the data as long as page is not refreshed.
 
 
-
-
+                                  Tools Used:
+                                     React JS
+                                     Chart JS
+                                     Material UI
+                                     SVG
+   
 Link:
 
   https://adnankarim.github.io/expense/
