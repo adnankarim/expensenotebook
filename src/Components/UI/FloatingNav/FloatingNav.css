@@ -1,0 +1,9 @@
+.float-wrapper{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    
+    padding: 5px 5px;
+}

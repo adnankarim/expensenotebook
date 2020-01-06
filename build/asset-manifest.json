@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/expensenotebook/static/css/main.87617b18.chunk.css",
+    "main.js": "/expensenotebook/static/js/main.6bbf1a1d.chunk.js",
+    "main.js.map": "/expensenotebook/static/js/main.6bbf1a1d.chunk.js.map",
+    "runtime-main.js": "/expensenotebook/static/js/runtime-main.82c79831.js",
+    "runtime-main.js.map": "/expensenotebook/static/js/runtime-main.82c79831.js.map",
+    "static/js/2.7596644d.chunk.js": "/expensenotebook/static/js/2.7596644d.chunk.js",
+    "static/js/2.7596644d.chunk.js.map": "/expensenotebook/static/js/2.7596644d.chunk.js.map",
+    "index.html": "/expensenotebook/index.html",
+    "precache-manifest.f913f8810b75489229f35df244301f46.js": "/expensenotebook/precache-manifest.f913f8810b75489229f35df244301f46.js",
+    "service-worker.js": "/expensenotebook/service-worker.js",
+    "static/css/main.87617b18.chunk.css.map": "/expensenotebook/static/css/main.87617b18.chunk.css.map",
+    "static/js/2.7596644d.chunk.js.LICENSE": "/expensenotebook/static/js/2.7596644d.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82c79831.js",
+    "static/js/2.7596644d.chunk.js",
+    "static/css/main.87617b18.chunk.css",
+    "static/js/main.6bbf1a1d.chunk.js"
+  ]
+}

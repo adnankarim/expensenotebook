@@ -1,0 +1,321 @@
+
+.container {
+    width: 100%;
+    padding: 2rem;
+    max-width: 90rem;
+    min-height: 100vh;
+  }
+
+  .main-panel {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 1px solid #468652;
+    border-radius: 5px;
+  }
+  
+.input {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-end;
+  line-height: 1;
+  margin-bottom: 0%; 
+
+}
+
+.input__description {
+  flex: 3;
+  text-align: left;
+}
+
+.input__value {
+  flex: 1;
+  text-align: left;
+}
+.input__category {
+  
+  flex-basis: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.radio_item{
+  flex: 2;
+  
+  margin: 5% 0%;
+  flex-direction: row;
+
+}
+ /* formCategory */
+
+ 
+ .category-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color:#468652;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+     margin-bottom: 0%;
+}
+.category-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.category-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.category-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 15px/1.7 'Open Sans', sans-serif;
+     color: #faf9f9;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     cursor: pointer;
+} 
+
+.input_submit_container{
+ 
+  flex: 3;
+  
+
+}
+.input_date_container{
+ flex: 1;
+}
+.input__last{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  
+  
+ }
+ .icon {
+   padding: 0% 0%;
+  width: 20px;
+  height: 20px;
+  margin: 0% 0% ;
+  margin-bottom: -2%;
+  fill: #468652;
+}
+  .input__submit {
+    
+    text-align: center;
+    background-color: -webkit-linear-gradient(to right, #243b55, #141e30); /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to right, #243b55, #141e30);   
+    border: 1px solid #468652;
+    color: white;
+    max-width: 80px;
+    min-width: 80px;
+    font-weight:100 ;
+    font-size:2rem;
+    cursor: pointer;
+    border-radius:100px ;
+    margin:0px 52px 4px;
+    padding: 5px 0px;
+    display: border-box;
+    -webkit-border-radius:100px ;
+    -moz-border-radius:100px ;
+    -ms-border-radius:100px ;
+    -o-border-radius:100px ;
+    transition:background-color 0.2s, border 0.2s, color 0.2s;
+   -webkit-transition:background-color 0.2s, border 0.2s, color 0.2s;
+   -moz-transition:background-color 0.2s, border 0.2s, color 0.2s;
+   -ms-transition:background-color 0.2s, border 0.2s, color 0.2s;
+   -o-transition:background-color 0.2s, border 0.2s, color 0.2s;
+  
+}
+.input__submit:hover {
+    text-align: center;
+    background-color: #141e30;
+    transition:background-color 0.2s, border 0.2s, color 0.2s;
+   -webkit-transition:background-color 0.2s, border 0.2s, color 0.2s;
+   -moz-transition:background-color 0.2s, border 0.2s, color 0.2s;
+   -ms-transition:background-color 0.2s, border 0.2s, color 0.2s;
+   -o-transition:background-color 0.2s, border 0.2s, color 0.2s;
+    border: 1px solid #468652 ;
+    color: white;
+    font-weight:100 ;
+    font-size: 2rem;
+    border-radius:100px ;
+    cursor: pointer;
+    margin:0px 52px 4px;
+    padding: 5px 0px;
+    display: border-box;
+    -webkit-border-radius:100px ;
+    -moz-border-radius:100px ;
+    -ms-border-radius:100px ;
+    -o-border-radius:100px ;
+    max-width: 80px;
+    min-width: 80px;
+}
+
+
+.input > div:not(:last-child) {
+  margin-right: 2rem;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  line-height: 1;
+  display: flex;
+}
+
+button svg {
+  pointer-events: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+
+.red-border {
+  border-color: rgba(217, 85, 81, 0.6) !important;
+}
+
+.red {
+  color: var(--color-red) !important;
+}
+
+.add__btn {
+  color: var(--color-green);
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--color-grey-light-4);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--color-grey-light-4);
+}
+
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--color-grey-light-4);
+}
+
+.form__input {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: none;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color:#daf5f0;
+  transition: all 0.3s;
+  border-bottom: 1px solid rgba(98, 193, 93, 0.6);
+}
+
+.form__label {
+  position: absolute;
+  padding: 5px 10px;
+  color: #daf5f0;
+  font-size: 1.4rem;
+  display: block;
+  margin-top: 3px;
+  opacity: 1;
+  transform: translateY(0rem);
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem);
+}
+
+
+
+.slider {
+  background-color: var(--color-green);
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: '';
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: var(--color-red);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 120%;
+  }
+
+  .item__delete--btn {
+    display: flex !important;
+  }
+
+  .panel__item:hover .panel__item__value {
+    transform: translateX(0px);
+  }
+}

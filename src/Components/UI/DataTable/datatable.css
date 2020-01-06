@@ -1,0 +1,92 @@
+
+.panel {
+    padding: 0% 0%;
+  }
+  
+  .panel__item {
+    display: flex;
+    padding: 1rem 1rem;
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  .panel__item:not(last-child) {
+    border-bottom:  1px solid rgba(255, 255, 255, 0.3)
+  }
+  
+  .panel__item__details {
+   flex: 2;
+    line-height: 1;
+  }
+  .panel__item__category {
+   flex: 2;
+    line-height: 1;
+  }
+  
+  .panel__item__details-name {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .panel__item__category-name {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .panel__item__details-date {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    opacity: 0.8;
+  }
+  
+  .panel__item__value {
+    flex: 2;
+    text-align: right;
+    transition: all 0.3s;
+  }
+  
+  .panel__item__value-number {
+    font-size: 2rem;
+    line-height: 1;
+    text-align: right;
+    justify-self: left;
+    font-weight: 700;
+  }
+  
+  .panel__item__value-percentage {
+    font-size: 1.7rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  
+  .panel__item-income .panel__item__value {
+    color:  #d65555;
+  }
+  
+  .panel__item-expense .panel__item__value {
+    color:  #d65555;
+  }
+  
+  .icon_cr {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    fill:  #d65555;
+  }
+  
+  .item__delete--btn {
+    color:  #d65555;
+    display: none;
+    transition: all 0.3s;
+  }
+  
+  .icon-cross {
+    margin-left: 5px;
+  }
+  
+  .panel__item:hover .item__delete--btn {
+    display: flex;
+  }
+  .panel__item:hover .panel__item__value {
+    transform: translateX(-10px);
+  }
