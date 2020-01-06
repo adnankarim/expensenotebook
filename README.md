@@ -1,12 +1,24 @@
-Welcome to Expense NoteBook Web Application
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                          Welcome to Expense NoteBook Web Application
 
 
-Introduction:
-> You can store your daily expenses based on categories i.e. Food, Entertainment etc.
->You can have a Pie Chart of expenses of any specific date displayed for you.
+
+    Introduction:
+         > You can store your daily expenses based on categories i.e. Food, Entertainment etc.
+          >You can have a Pie Chart of expenses of any specific date displayed for you.
 
 Working Details:
-->Inputs 
+
+      ->Inputs 
      Add Description
           The Description Of your Expense
      Cost
@@ -20,16 +32,23 @@ Working Details:
           On Submission Your Added Data will be Displayed Below
           
    
-  ->Displayed Data:
+    ->Displayed Data:
           >Whenever you would hover over any row of added data. You can remove the row from the data simply by clicking the red Cross button.
     
-  ->Navigation:
+ 
+ 
+ 
+      ->Navigation:
            >There Is a navigation sign above With a Plus Symbol.
                  OnClick->   You can have a sliding menus 
                                  >One with (100 Money symbol) (which is default) 
-                                        It displays data adding/display portion.
+                                
+                                
+                                It displays data adding/display portion.
                                  >Other with PieChart 
-                                        It displays Pie Chart portion which displays added data by selecting the any day/ date from the Input.
+                                        
+                                        
+                                        It displays Pie Chart portion which displays added data by selecting the any day/ date from the                                        Input.
             
             
             
